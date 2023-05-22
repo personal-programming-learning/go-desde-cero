@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	"Curso-de-go-desde-cero/go-desdecero/variables"
+	"Curso-de-go-desde-cero/go-desdecero/ejercicios"
 )
 
 func main() {
-	estado, texto := variables.ConviertoaTexto(12)
-	fmt.Println(estado)
-	fmt.Println(texto)
+	num, valorString := ejercicios.ConvertirStrinaEntero("15")
+	fmt.Println(num)
+	fmt.Println(valorString)
 }
