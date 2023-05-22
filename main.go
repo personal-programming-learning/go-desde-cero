@@ -2,8 +2,11 @@ package main
 
 import (
 	"fmt"
+	"Curso-de-go-desde-cero/go-desdecero/ejercicios"
 )
 
 func main() {
-	fmt.Println("Hola mundo")
+	num, valorString := ejercicios.ConvertirStrinaEntero("15")
+	fmt.Println(num)
+	fmt.Println(valorString)
 }
